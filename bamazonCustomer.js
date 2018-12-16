@@ -12,7 +12,6 @@ var connection = mysql.createConnection({
 
 connection.connect(function(error) {
     if (error) throw error;
-    //    console.log("connected as id " + connection.threadId);
 });
 
 function start() {
@@ -23,9 +22,7 @@ function start() {
             console.log("----------");
             console.log("ID: " + response[i].item_id);
             console.log("Product: " + response[i].product_name);
-            // console.log("Department: " + response[i].department_name);
             console.log("Price: " + response[i].price);
-            // console.log("Quantity: " + response[i].stock_quantity);
             console.log("----------");
 
         }
