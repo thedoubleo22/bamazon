@@ -4,7 +4,7 @@
 
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
-![](img/selectproducts.png)
+![](img/Selectproducts.png)
 
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 ![](img/Insufficientquantity.png)
